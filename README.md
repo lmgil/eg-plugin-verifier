@@ -1,4 +1,4 @@
-# express-gateway-plugin-rewrite
+# eg-plugin-verifier
 
 This plugin for [Express Gateway](https://express-gateway.io) makes it possible to redirect (rewrite internally or
 redirect using HTTP codes) User to the specific URL based on
