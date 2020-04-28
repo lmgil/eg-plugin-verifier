@@ -1,0 +1,35 @@
+{
+  "name": "@deca-dev/eg-plugin-verifier",
+  "version": "0.0.2",
+  "description": "Verifier plugin for express-gateway",
+  "main": "manifest.js",
+  "scripts": {
+    "test": "jest --env node",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExpressGateway/express-gateway-plugin-rewrite.git"
+  },
+  "keywords": [
+    "express-gateway",
+    "verifier"
+  ],
+  "author": "DECA GLM",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ExpressGateway/express-gateway-plugin-rewrite/issues"
+  },
+  "homepage": "https://github.com/ExpressGateway/express-gateway-plugin-rewrite#readme",
+  "devDependencies": {
+    "@types/json-schema": "^7.0.3",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-gateway": "^1.15.0",
+    "jest": "^24.5.0",
+    "semantic-release": "^15.13.3"
+  },
+  "dependencies": {
+    "path-to-regexp": "^3.0.0"
+  }
+}
